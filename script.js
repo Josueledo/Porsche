@@ -18,8 +18,8 @@ let imgContainer = document.querySelector(".imgContainer")
 
 function animate(){
     setTimeout(()=>{
-        car.style.transform = "translate(0px,300px"
-        cayman.style.transform = "translate(0px,180px)"
+         car.style.transform = "translate(0px,0px)"
+        cayman.style.transform = "translate(0px,130px)"
         des.style.transform = "translateY(0px)"
         per.style.transform = "translateY(0px)"
         config.style.transform = "translateY(0px)"
