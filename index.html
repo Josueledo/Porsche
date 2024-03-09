@@ -10,19 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-        <link rel="icon" type="image/x-icon" href="./logopage.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/logopage.png">
 </head>
 
 <body onload="animate()">
     <div class="container">
         <header>
-            <div class="logoContainer"><img src="./logo.png" alt=""></div>
+            <div class="logoContainer"><img src="./assets/logo.png" alt=""></div>
             <ul>
-                <li class="desing">DESING</li>
-                <li class="performance">PERFORMANCE</li>
-                <li class="configure">CONFIGURE</li>
-                <li class="highlight">HIGHLIGHTS</li>
+                <li class="desing" >CAYMAN</li>
+                <li class="performance" onclick="design()">Design</li>
+                <li class="configure" onclick="performance()">Performance</li>
             </ul>
 
             <button class="test-drive">TEST DRIVE</button>
@@ -30,7 +29,7 @@
 
         <div class="main">
             <h1 class="title">CAYMAN</h1>
-            <img src="./porsche-model.png" alt="porsche" class="porsche">
+            <img src="./assets/porsche-model.png" alt="porsche" class="porsche">
         </div>
 
         <footer>
@@ -61,6 +60,68 @@
         </footer>
 
     </div>
+    <div class="container2">
+        <header>
+            <div class="logoContainer"><a href="#"><img src="./assets/logo.png" alt=""></a></div>
+            <ul>
+                <li class="desing" onclick="designHome()"><a href="#">CAYMAN</a></li>
+                <li class="performance" >Design</li>
+                <li class="configure" onclick="performance()"><a href="#">Performance</a></li>
+            </ul>
+
+            <button class="test-drive">TEST DRIVE</button>
+        </header>
+        <div class="imgContainer">
+            <div class="imgContainer1">
+               <img src="./assets/gt4interior.webp" alt=""> 
+            </div>
+            <div class="imgContainer2">
+              <img src="./assets/img1.jpg" alt="">  
+              <img src="./assets/img2.jpg" alt="">  
+            </div>
+        </div>
+        
+    </div>
+    <div class="container3">
+        <header>
+            <div class="logoContainer"><a href="#"><img src="./assets/logo.png" alt=""></a></div>
+            <ul>
+                <li class="desing" onclick="designHome()"><a href="#">CAYMAN</a></li>
+                <li class="performance" onclick="design()">Design</li>
+                <li class="configure"><a href="#">Performance</a></li>
+            </ul>
+
+            <button class="test-drive">TEST DRIVE</button>
+        </header>
+      
+        <div class="infoContainer">
+            <div class="card">
+                <h3>Velocidade máxima</h3>
+                <h1>315 km/h</h1>
+            </div>
+            <div class="card">
+                <h3>0-100km/h</h3>
+                <h1>3,4s</h1>
+            </div>
+            <div class="card">
+                <h3>0-100km/h</h3>
+                <h1>3,4s</h1>
+            </div>
+            <div class="card">
+                <h3>0-160km/h</h3>
+                <h1>7,1s</h1>
+            </div>
+            <div class="card">
+                <h3>0-200km/h</h3>
+                <h1>7,1s</h1>
+            </div>
+            <div class="card">
+                <h3>Aceleração em marcha</h3>
+                <h1>1,9s</h1>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./script.js"></script>
 </body>
