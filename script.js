@@ -15,7 +15,11 @@ let d3 = document.querySelector(".div3")
 let d4 = document.querySelector(".div4")
 let imgContainer = document.querySelector(".imgContainer")
 
+let logoClique = document.querySelectorAll(".logoContainer")
 
+function reload(){
+    window.location.reload()
+}
 
 
 function animate(){
