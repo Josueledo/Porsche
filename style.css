@@ -519,13 +519,13 @@ body {
             }
 
             .img1 {
-                background: url(./assets/img1.jpg);
+                background: url(./img1.jpg);
                 background-size: cover;
                 transition: all .5s;
             }
 
             .img2 {
-                background: url(./assets/img2.jpg);
+                background: url(./img2.jpg);
                 background-size: cover;
                 transition: all .5s;
             }
