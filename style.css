@@ -6,7 +6,7 @@
 }
 
 body {
-   min-width: 370px;
+    min-width: 370px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -29,9 +29,9 @@ body {
         .infoContainer {
             width: 700px;
             flex-wrap: wrap;
-            height: 400px;
+            height: 350px;
             display: flex;
-            gap: 20px;
+            gap:10px;
             align-items: center;
             justify-content: center;
             overflow: hidden;
@@ -517,13 +517,13 @@ body {
             }
 
             .img1 {
-                background: url(./img1.jpg);
+                background: url(./assets/img1.jpg);
                 background-size: cover;
                 transition: all .5s;
             }
 
             .img2 {
-                background: url(./img2.jpg);
+                background: url(./assets/img2.jpg);
                 background-size: cover;
                 transition: all .5s;
             }
@@ -730,12 +730,15 @@ body {
                 }
             }
 
+            footer {
+                .porscheSub {
+                    font-size: 20px;
+                }
+                .imgContainer{
+                    flex-direction: column;
+                }
         }
 
-        footer {
-            .porscheSub {
-                font-size: 20px;
-            }
 
             .cayman {
                 font-size: 20px;
@@ -837,6 +840,54 @@ body {
 
                 .imgContainer {
                     flex-direction: column;
+                    padding-bottom: 120px;
+
+                    div {
+                        width: 120px;
+                        height: 80px;
+
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+@media (max-width: 580px) {
+
+    body {
+        .container3{
+            .infoContainer{
+                width: 400px;
+                .card{
+                    width: 160px;
+                }
+            }
+        }
+    
+        .container {
+        .main{
+            .porsche{
+                width: 350px;
+            }
+            .title{
+                font-size: 70px;
+            }
+        }
+
+            footer {
+                flex-direction: column;
+                overflow: auto;
+                height: auto;
+                .infoContainer{
+                    padding: 0;
+                    div{
+                        width: 40%;
+                    }
+                }
+                .imgContainer {
+                    flex-direction: row;
                     padding-bottom: 120px;
 
                     div {
